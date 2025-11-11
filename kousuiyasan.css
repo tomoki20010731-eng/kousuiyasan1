@@ -1,0 +1,387 @@
+
+
+
+body {
+    margin: 0;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0 25px;
+}
+
+.logo {
+    font-size: 2.4rem;
+    letter-spacing: 0.20em;
+    font-weight: normal;
+    color: #333;
+}
+
+.tagline {
+    color: #E16B8C;
+    letter-spacing: 0.15em;
+    font-size: 1rem;
+}
+
+.hero {
+    position: relative;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/6/64/Dianthus_superbus_01.jpg") center/cover no-repeat;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.55);
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+}
+
+.about {
+    padding: 45px 25px;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.contact {
+    padding: 50px 25px;
+    text-align: center;
+    line-height: 1.9;
+    border-top: 1px solid #EADFE3;
+}
+
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.contact h2, .contact h3 {
+    letter-spacing: 0.15em;
+    margin-bottom: 12px;
+    font-weight: normal;
+}
+
+.insta-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.insta-icon:hover {
+    transform: scale(1.12);
+    opacity: 0.8;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #FAF4F4; /* 淡い撫子色 */
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+
+
+.header-photo img {
+  display: block;       /* ブロック化 */
+    margin: 0 auto;       /* 左右の余白を自動で均等に */
+    width: 600px;         /* 任意の幅 */
+    height: auto;         /* 縦横比維持 */
+}
+
+
+
+
+
+
+
+
+
+
+/* ナビゲーションメニューを左上に固定 */
+.main-nav {
+    position: fixed;      /* 画面に固定 */
+    top: 20px;            /* 上から20px */
+    left: 20px;           /* 左から20px */
+    z-index: 1000;        /* 他の要素より前面に表示 */
+    text-align: left;     /* 左寄せ */
+}
+
+/* ボタンを左上に表示 */
+#menu-toggle {
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #E16B8C;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* メニューリストの初期状態 */
+#menu-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: none;
+}
+
+#menu-list li {
+    margin: 6px 0;
+}
+
+#menu-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#menu-list a:hover {
+    color: #E16B8C;
+}
+
+
+
+/* 会社概要ページ */
+.page-title-section {
+  text-align: center;
+  padding: 60px 0 20px;
+}
+
+.page-title {
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.about-img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+.about-text {
+  width: 50%;
+  line-height: 1.8;
+}
+
+.company-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.company-table th,
+.company-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.company-table th {
+  background: #f8f8f8;
+  width: 30%;
+  text-align: left;
+}
+
+
+/* 強みページレイアウト */
+.strengths-section {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 0 25px;
+  text-align: center;
+}
+
+.strengths-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  letter-spacing: 0.18em;
+  font-weight: normal;
+}
+
+.strength-item {
+  margin-bottom: 45px;
+  border-top: 1px solid #EADFE3;
+  padding-top: 30px;
+}
+
+.strength-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 14px;
+  letter-spacing: 0.1em;
+  color: #E16B8C;
+}
+
+.strength-item p {
+  line-height: 1.9;
+  color: #444;
+}
+
+/* --------------- 基本設定 --------------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.85;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --------------- ヘッダー --------------- */
+header {
+    text-align: center;
+    padding: 35px 0 25px;
+}
+
+.logo {
+    font-size: 2.2rem;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: #E16B8C;
+    letter-spacing: 0.12em;
+    margin-top: 6px;
+}
+
+/* --------------- 体験ページレイアウト --------------- */
+.experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 45px 25px;
+    gap: 40px;
+}
+
+.experience-image {
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+
+.experience-text {
+    max-width: 420px;
+}
+
+.experience-text h2 {
+    font-weight: normal;
+    font-size: 1.8rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+}
+
+.experience-text p {
+    line-height: 1.8;
+}
+
+/* --------------- 香りリスト --------------- */
+.scent-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.scent-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.scent-list span {
+    font-weight: bold;
+    color: #E16B8C;
+}
+
+
+
+
+        .line-btn {
+            display: inline-block;
+            background-color: #06C755;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 1rem;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        .line-btn:hover {
+            opacity: 0.85;
+        }
+
+
+        .reserve-link-box {
+          text-align: center;
+          margin: 50px 0;
+        }
+
+        .reserve-btn {
+          display: inline-block;
+          padding: 14px 32px;
+          background-color: #E16B8C; /* サイトで使っている撫子色 */
+          color: white;
+          font-size: 1rem;
+          text-decoration: none;
+          border-radius: 6px;
+          letter-spacing: 0.12em;
+          transition: 0.3s;
+        }
+
+        .reserve-btn:hover {
+          opacity: 0.85;
+        }
+
+
+
+
+
+
+    }
+
+    .experience-text h2 {
+        font-size: 1.5rem;
+    }
+}
