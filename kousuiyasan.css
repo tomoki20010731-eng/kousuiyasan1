@@ -385,3 +385,33 @@ header {
         font-size: 1.5rem;
     }
 }
+
+
+.sponsor-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8f8f8; /* 薄いグレーでフッターと区別 */
+  margin-top: 30px;
+}
+
+.sponsor-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center; /* 中央揃え */
+  flex-wrap: wrap;         /* 小さい画面で折り返す */
+  gap: 20px;               /* ロゴ間の余白 */
+}
+
+.sponsor-logos img {
+  max-height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.sponsor-logos img:hover {
+  transform: scale(1.1); /* ホバーで少し拡大 */
+}
