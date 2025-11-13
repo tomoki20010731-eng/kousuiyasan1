@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>Reservation</title>
+  <title>预约页面</title>
   <link rel="stylesheet" href="kousuiyasan.css">
 </head>
 
@@ -11,64 +11,64 @@
 <nav class="main-nav">
   <button id="menu-toggle">☰</button>
   <ul id="menu-list">
-      <li><a href="index_en.html">Home</a></li>
-      <li><a href="about_en.html">About</a></li>
-      <li><a href="strengths_en.html">Our Strengths</a></li>
-      <li><a href="catalog_en.html">Experience</a></li>
-      <li><a href="reserve_en.html">Reservation</a></li>
-      <li><a href="recruit_en.html">Recruit</a></li>
+      <li><a href="index_cn.html">首页</a></li>
+      <li><a href="about_cn.html">公司简介</a></li>
+      <li><a href="strengths_cn.html">优势</a></li>
+      <li><a href="catalog_cn.html">体验内容</a></li>
+      <li><a href="reserve_cn.html" class="active">预约</a></li>
+      <li><a href="recruit_cn.html">招聘</a></li>
       <li class="language-switch">
-    <span>Language ▼</span>
-    <ul class="dropdown">
-      <li><a href="reserve_en.html">English</a></li>
-      <li><a href="reserve.html">日本語</a></li>
-        <li><a href="reserve_cn.html">中文</a></li>
-          <li><a href="reserve_kr.html">한국어</a></li>
-    </ul>
+          <span>语言 ▼</span>
+          <ul class="dropdown">
+            <li><a href="reserve_en.html">English</a></li>
+              <li><a href="reserve.html">日本語</a></li>
+            <li><a href="reserve_cn.html">中文</a></li>
+              <li><a href="reserve_kr.html">한국어</a></li>
+          </ul>
       </li>
   </ul>
 </nav>
 
 <header>
-  <h1 class="logo">Handmade Perfume Studio</h1>
-  <p class="tagline">Reservation Information</p>
+  <h1 class="logo">手工香水店</h1>
+  <p class="tagline">预约信息</p>
 </header>
 
 <section class="contact" style="padding: 60px 25px;">
-  <h2>Make a Reservation</h2>
-  <p>You can book your perfume-making experience by selecting your preferred date and time.</p>
+  <h2>预约</h2>
+  <p>请选择希望的日期和时间，进行体验预约。</p>
 
-  <p style="margin-top: 35px;">▼ Reserve via Instagram DM</p>
+  <p style="margin-top: 35px;">▼ 通过 Instagram 私信预约</p>
   <a href="https://www.instagram.com/your_instagram_id/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
          alt="Instagram" class="insta-icon">
   </a>
 
-  <p style="margin-top: 35px;">▼ Reserve via LINE</p>
-
+  <p style="margin-top: 35px;">▼ 通过 LINE 预约</p>
   <a href="https://lin.ee/xxxxxxx" target="_blank" class="line-btn">
-      Reserve on LINE
+      使用 LINE 预约
   </a>
 
-  <p style="margin-top: 40px;">▼ Or fill out the form below</p>
+  <p style="margin-top: 40px;">▼ 或通过以下表单提交预约申请</p>
 
   <form action="#" method="post" style="max-width: 350px; margin: 0 auto; text-align: left;">
-    <label>Name:</label>
+    <label>姓名：</label>
     <input type="text" name="name" required style="width:100%; padding:8px; margin-bottom:15px;">
 
-    <label>Number of People:</label>
+    <label>人数：</label>
     <input type="number" name="number" min="1" required style="width:100%; padding:8px; margin-bottom:15px;">
 
-    <label>Preferred Date & Time:</label>
+    <label>希望日期与时间：</label>
     <input type="datetime-local" name="date" required style="width:100%; padding:8px; margin-bottom:20px;">
 
     <button type="submit" style="padding:10px 20px; border:none; background:#E16B8C; color:white; cursor:pointer;">
-      Submit Reservation
+      发送预约
     </button>
   </form>
 
 </section>
 
+<!-- 广告区 -->
 <section class="sponsor-section">
   <h3>広告スペース</h3>
   <div class="sponsor-logos">
@@ -79,10 +79,8 @@
   </div>
 </section>
 
-
-
 <footer>
-  <p>© Handmade Perfume Studio</p>
+  <p>© 手工香水店</p>
 </footer>
 
 <script src="kousuiyasan1.js"></script>

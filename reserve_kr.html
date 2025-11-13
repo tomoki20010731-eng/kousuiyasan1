@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>Reservation</title>
+  <title>예약하기 - 수제 향수 가게</title>
   <link rel="stylesheet" href="kousuiyasan.css">
 </head>
 
@@ -11,64 +11,65 @@
 <nav class="main-nav">
   <button id="menu-toggle">☰</button>
   <ul id="menu-list">
-      <li><a href="index_en.html">Home</a></li>
-      <li><a href="about_en.html">About</a></li>
-      <li><a href="strengths_en.html">Our Strengths</a></li>
-      <li><a href="catalog_en.html">Experience</a></li>
-      <li><a href="reserve_en.html">Reservation</a></li>
-      <li><a href="recruit_en.html">Recruit</a></li>
+      <li><a href="index_kr.html">홈</a></li>
+      <li><a href="about_kr.html">회사소개</a></li>
+      <li><a href="strengths_kr.html">강점</a></li>
+      <li><a href="catalog_kr.html">체험에 대하여</a></li>
+      <li><a href="reserve_kr.html" class="active">예약</a></li>
+      <li><a href="recruit_kr.html">채용</a></li>
       <li class="language-switch">
-    <span>Language ▼</span>
-    <ul class="dropdown">
-      <li><a href="reserve_en.html">English</a></li>
-      <li><a href="reserve.html">日本語</a></li>
-        <li><a href="reserve_cn.html">中文</a></li>
+        <span>Language ▼</span>
+        <ul class="dropdown">
+          <li><a href="reserve_en.html">English</a></li>
+          <li><a href="reserve.html">日本語</a></li>
+          <li><a href="reserve_cn.html">中文</a></li>
           <li><a href="reserve_kr.html">한국어</a></li>
-    </ul>
+        </ul>
       </li>
   </ul>
 </nav>
 
 <header>
-  <h1 class="logo">Handmade Perfume Studio</h1>
-  <p class="tagline">Reservation Information</p>
+  <h1 class="logo">수제 향수 가게</h1>
+  <p class="tagline">예약 안내</p>
 </header>
 
 <section class="contact" style="padding: 60px 25px;">
-  <h2>Make a Reservation</h2>
-  <p>You can book your perfume-making experience by selecting your preferred date and time.</p>
+  <h2>예약하기</h2>
+  <p>원하시는 날짜와 시간을 선택하여 체험 예약이 가능합니다.</p>
 
-  <p style="margin-top: 35px;">▼ Reserve via Instagram DM</p>
+  <p style="margin-top: 35px;">▼ Instagram DM으로 예약하기</p>
   <a href="https://www.instagram.com/your_instagram_id/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
          alt="Instagram" class="insta-icon">
   </a>
 
-  <p style="margin-top: 35px;">▼ Reserve via LINE</p>
+  <p style="margin-top: 35px;">▼ LINE으로 예약하기</p>
 
   <a href="https://lin.ee/xxxxxxx" target="_blank" class="line-btn">
-      Reserve on LINE
+      LINE으로 예약
   </a>
 
-  <p style="margin-top: 40px;">▼ Or fill out the form below</p>
+  <p style="margin-top: 40px;">▼ 또는 아래 폼에서 예약 신청</p>
 
   <form action="#" method="post" style="max-width: 350px; margin: 0 auto; text-align: left;">
-    <label>Name:</label>
+    <label>이름：</label>
     <input type="text" name="name" required style="width:100%; padding:8px; margin-bottom:15px;">
 
-    <label>Number of People:</label>
+    <label>인원：</label>
     <input type="number" name="number" min="1" required style="width:100%; padding:8px; margin-bottom:15px;">
 
-    <label>Preferred Date & Time:</label>
+    <label>희망 날짜 및 시간：</label>
     <input type="datetime-local" name="date" required style="width:100%; padding:8px; margin-bottom:20px;">
 
     <button type="submit" style="padding:10px 20px; border:none; background:#E16B8C; color:white; cursor:pointer;">
-      Submit Reservation
+      예약 전송
     </button>
   </form>
 
 </section>
 
+<!-- 広告スペースは日本語のまま -->
 <section class="sponsor-section">
   <h3>広告スペース</h3>
   <div class="sponsor-logos">
@@ -79,10 +80,8 @@
   </div>
 </section>
 
-
-
 <footer>
-  <p>© Handmade Perfume Studio</p>
+  <p>© 수제 향수 가게</p>
 </footer>
 
 <script src="kousuiyasan1.js"></script>
